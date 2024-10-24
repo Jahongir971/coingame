@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J-DEX COIN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game">
+        <h1 id="rankDisplay">Rank: Novice</h1>
+        <h2 id="coinCount">Tangalar: 0</h2>
+        <img id="coin" src="coin.png" alt="Coin" />
+        
+        <!-- Bo'limlarni tangani pastiga ko'chirish -->
+        <div id="buttons">
+            <button id="upgradeButton">Kuchaytirish</button>
+            <button id="rankButton">Ranklar</button>
+            <button id="leaderboardButton">Top 50</button>
+        </div>
+
+        <div id="upgradeSection" style="display: none;">
+            <h2>Kuchaytirish</h2>
+            <button class="upgrade" data-cost="500" data-coins="2">500 Tanga - 2 tanga</button>
+            <button class="upgrade" data-cost="10000" data-coins="20">10000 Tanga - 20 tanga</button>
+            <button class="upgrade" data-cost="100000" data-coins="100">100000 Tanga - 100 tanga</button>
+            <button class="upgrade" data-cost="1000000" data-coins="1200">1000000 Tanga - 1200 tanga</button>
+        </div>
+
+        <div id="rankSection" style="display: none;">
+            <h2>Eng yuqori ranklar</h2>
+            <ul id="rankList"></ul>
+        </div>
+
+        <div id="leaderboardSection" style="display: none;">
+            <h2>Top 50</h2>
+            <ul id="leaderboard"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

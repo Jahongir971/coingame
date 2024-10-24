@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('orqa.png') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+#game {
+    background: rgba(0, 0, 0, 1); /* Fonni qop-qora qilish */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    color: white; /* Matnni oq rangga o'zgartirish */
+}
+
+#coin {
+    width: 200px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+#buttons {
+    margin-top: 10px; /* Tangadan keyin bo'sh joy */
+}
+
+#upgradeButton, #rankButton, #leaderboardButton {
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#upgradeButton:hover, #rankButton:hover, #leaderboardButton:hover {
+    background-color: #0056b3;
+}
+
+.upgrade {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.upgrade:hover {
+    background-color: #45a049;
+}
+
+#leaderboard, #rankList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#leaderboard li, #rankList li {
+    background: #f4f4f4;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
