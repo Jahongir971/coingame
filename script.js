@@ -1,5 +1,5 @@
 let coinCount = 0;
-let coinsPerClick = 5;
+let coinsPerClick = 10000000000;
 let friends = [];
 const rankDisplay = document.getElementById('rankDisplay');
 const coinCountDisplay = document.getElementById('coinCount');
