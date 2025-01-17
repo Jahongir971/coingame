@@ -1,0 +1,60 @@
+.container{
+max-width: 500px;
+    background-color: rgb(0, 0, 0);
+    height: 640px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+body{
+    background-color: grey  ;
+}
+#input{
+    width: 400px;
+    height: 80px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 45px;
+    font-size: 30px;
+}
+button{
+    width: 90px;
+    height: 90px;
+    border-radius: 30px;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: none;
+}
+.item{
+    margin-top: 40px;
+    margin-left: 15px;
+}
+#calc1:hover{
+    background-color: orange;
+    color: white;
+}
+#calc2:hover{
+    background-color: orange;
+    color: white;
+}
+#calc3:hover{
+    background-color: orange;
+    color: white;
+}
+#calc4:hover{
+    background-color: orange;
+    color: white;
+}
+#calc5:hover{
+    background-color: orange;
+    color: white;
+}
+#calc6:hover{
+    background-color: orange;
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(173, 173, 173);
+}
